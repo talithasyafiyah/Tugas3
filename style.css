@@ -1,0 +1,119 @@
+body {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "montserrat",sans-serif;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    font-family: "montserrat",sans-serif;
+}
+
+table{
+    margin-top: 8%;
+    font-family: "montserrat",sans-serif;
+    text-align: center;
+}
+
+input[type="button"] {
+    width: 80px;
+    padding: 15px;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1px solid #fff;
+    -webkit-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "montserrat",sans-serif;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+input[type="button"]:hover {
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    -webkit-transform: scale(1, 0.9);
+    -o-transform: scale(1, 0.9);
+    transform: scale(1, 0.9);
+    font-family: "montserrat",sans-serif;
+}
+
+input[type="number"] {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: "montserrat",sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    width: 95%;
+}
+
+input[type="text"] {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: "montserrat",sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    width: 95%;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: "montserrat",sans-serif;
+}
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+.button {
+      background-color: #000;
+      color: #fff;
+    }
+  
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.button {
+    background-color: #fff;
+    color: #000;
+  }
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: "montserrat",sans-serif;
+    font-size: 15px;
+    width: 95%;
+    height: 50px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 15px;
+    font-family: "montserrat",sans-serif;
+    -webkit-transform: scale(1.1, 1);
+    -o-transform: scale(1.1, 1);
+    transform: scale(1.1, 1);
+}
